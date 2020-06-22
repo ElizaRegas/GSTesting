@@ -693,8 +693,7 @@ img {
     left: 39vw;
   } */
 /* } */
-
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .good {
     font-size: 7vw;
   }
