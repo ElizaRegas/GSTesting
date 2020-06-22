@@ -693,3 +693,32 @@ img {
     left: 39vw;
   } */
 /* } */
+
+@media screen and (min-width: 576px) {
+  .good {
+    font-size: 7vw;
+  }
+  .spirits {
+    font-size: 7.5vw;
+  }
+  .back-button-white {
+    margin: 0% -6%;
+    font-size: 75%;
+  }
+  .yes-no-button {
+    width: auto;
+    height: auto;
+  }
+  #age-modal-left {
+    margin: 15vw -10.5vw;
+  }
+  .question-div {
+    top: 6%;
+  }
+  .choice-text-mood {
+    color: white;
+    font-size: 4vw;
+    top: 7vw;
+    left: 9vw;
+  }
+}
