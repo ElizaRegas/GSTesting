@@ -1,0 +1,695 @@
+/* page elements ============================================ */
+body {
+  background-color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+/* classes =================================================== */
+.age-text {
+  padding-bottom: 2vw;
+  text-shadow: 1px 1px 3px #333;
+}
+
+.back-button-black {
+  position: absolute;
+  z-index: 1;
+  top: 4vw;
+  right: 85vw;
+  border: 3px solid #000;
+  color: black;
+  background: none;
+  letter-spacing: 1px;
+  width: 10vw;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
+}
+
+.back-button-black:hover {
+  outline: 5px auto white;
+}
+
+.back-button-white {
+  position: absolute;
+  z-index: 1;
+  top: 2vw;
+  right: 85vw;
+  border: 3px solid white;
+  color: white;
+  background: none;
+  letter-spacing: 1px;
+  width: auto;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.back-button-white:hover {
+  outline: 5px auto black;
+  color: white;
+}
+
+.background-left {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vw;
+}
+
+.background-right {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vw;
+}
+
+.choice-text {
+  font-family: "Julius Sans One", sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+
+.choice-text-booze {
+  color: white;
+  font-size: 4vw;
+  padding: 4% 6%;
+}
+
+.choice-text-mood {
+  color: white;
+  font-size: 4vw;
+  top: 3vw;
+  left: 4vw;
+}
+
+.choice-text-music {
+  color: black;
+  font-size: 3vw;
+  top: 2vw;
+  left: 20vw;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.container {
+  padding-top: 3% !important;
+}
+
+.custom-row-card {
+  padding: 19px;
+}
+
+.custom-text-left {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 4vw;
+  margin: 24.8vw 0vw;
+  position: absolute;
+  right: 2vw;
+  text-shadow: 1px 1px 5px #333;
+}
+
+.custom-text-right {
+  font-family: "Vast Shadow", cursive;
+  margin: 2.9vw 1vw;
+}
+
+.forward-button {
+  position: absolute;
+  z-index: 1;
+  top: 2vw;
+  right: 5vw;
+  border: 3px solid #fff;
+  color: #fff;
+  background: none;
+  letter-spacing: 1px;
+  width: auto;
+  text-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.forward-button:hover {
+  outline: 5px auto black;
+  color: white;
+}
+
+.good {
+  font-family: "Julius Sans One", sans-serif;
+  position: absolute;
+  font-size: 3vw;
+  right: 59vw;
+  padding-bottom: 1.3vw;
+  margin: -3vw -5vw;
+}
+
+.good-mood {
+  margin: -2vw -5vw !important;
+}
+
+.good-half {
+  position: fixed;
+  margin: -2vw 38vw;
+  font-size: 3vw;
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.header {
+  z-index: 1 !important;
+  background-color: black;
+  color: white;
+  padding: 4.5vw 0vw 0.5vw;
+}
+
+.header-questions {
+  padding: 4.5vw 0vw 2.5vw;
+}
+
+.header-text {
+  font-size: 7.5vw;
+  border-bottom: 5px solid black;
+}
+
+.header-text-left {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 11.7vw 0vw 0vw;
+  position: absolute;
+  right: 1.4vw;
+  padding-bottom: 1.3vw;
+  text-shadow: 6px 5px 10px #000;
+}
+
+.header-text-right {
+  font-family: "Vast Shadow", cursive;
+  margin: 11.5vw 0vw 0vw;
+  width: 171%;
+  padding-bottom: 1.4vw;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.imagesBooze {
+  box-shadow: 20px 20px 15px #000;
+  transition: transform 0.2s;
+}
+
+.imagesBooze:hover {
+  transform: scale(1.05);
+}
+
+.imagesMood {
+  box-shadow: 20px 20px 15px #000;
+  transition: transform 0.2s;
+}
+
+.imagesMood:hover {
+  transform: scale(1.05);
+}
+
+.imagesMusic {
+  box-shadow: 20px 20px 15px #000;
+  transition: transform 0.2s;
+}
+
+.imagesMusic:hover {
+  transform: scale(1.05);
+}
+
+.jumbotron-questions {
+  padding: 3.7vw;
+}
+
+.question-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  height: 5vw;
+  position: absolute;
+  z-index: 1;
+  top: 9vw;
+  border-radius: 5px;
+  right: 25%;
+  box-shadow: 5px 5px 7px #000;
+}
+
+.question-text {
+  z-index: 2;
+  -webkit-text-stroke: 0.2px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: "Homemade Apple", cursive;
+  font-size: 2.5vw;
+  margin: 0.9vw 3.3vw;
+  color: white;
+}
+
+.results-header-left {
+  background-color: black;
+  width: 50vw;
+  position: fixed;
+  left: 0vw;
+}
+.results-header-right {
+  background-color: black;
+  width: 50vw;
+  position: fixed;
+  right: 0vw;
+}
+
+.results-header-text {
+  margin: 5vw 0vw 0vw;
+}
+
+.single-background {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vw;
+  display: none;
+}
+
+.spirits {
+  font-family: "Vast Shadow", cursive;
+  font-size: 3.5vw;
+  margin: -3.5% 0% 0%;
+  position: absolute;
+  left: 48vw;
+}
+
+.spirits-mood {
+  margin: -2.5% 0% 0%;
+}
+
+.spirits-half {
+  position: fixed;
+  color: white;
+  margin: -2.4vw 0vw 0vw;
+  font-size: 3.5vw;
+  font-family: "Vast Shadow", cursive;
+}
+
+.yes-no-button {
+  background: none;
+  font-family: "Vast Shadow", cursive;
+  width: 10vw;
+  height: 5vw;
+  margin-bottom: 1vw;
+}
+
+/* ids ====================================================== */
+#age-modal-left {
+  position: absolute;
+  z-index: 1;
+  border: 3px solid #000;
+  border-right: none;
+  color: #000;
+  background: none;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3vw;
+  margin: 15vw -0.4vw;
+  padding: 3vw;
+}
+
+#age-modal-right {
+  position: absolute;
+  z-index: 1;
+  border: 3px solid white;
+  border-left: none;
+  color: white;
+  background: none;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3vw;
+  margin: 15vw -2vw;
+  padding: 3vw;
+}
+
+#age-page-left {
+  background: url(../images/White.jpg) no-repeat center center fixed;
+  color: black;
+}
+
+#age-page-right {
+  background: url(../images/Black.jpg) no-repeat center center fixed;
+  color: white;
+}
+
+#age-verification-page {
+  display: none;
+}
+
+#back-button-results {
+  width: auto;
+}
+
+#booze-page {
+  background: url(../images/BlackandBlue.jpg) no-repeat center center fixed;
+}
+
+#cocktail-display-div {
+  width: 75%;
+  position: absolute;
+  right: -4vw;
+}
+
+#country-text {
+  left: 14.5vw;
+}
+
+#drink-name {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 2vw 0vw;
+  width: 100vw;
+}
+
+#kids-header-text-right {
+  width: 100%;
+}
+
+#kids-page {
+  display: none;
+}
+
+#kids-page-left {
+  background: url(../images/Green.jpg) no-repeat center center fixed;
+}
+
+#kids-page-right {
+  background: url(../images/Purple.jpg) no-repeat center center fixed;
+}
+
+#kids-text-right {
+  font-size: 4.2vw;
+}
+
+#landing-page {
+  display: block;
+}
+
+#landing-page-left {
+  background: url(../images/Yellow.jpg) no-repeat center center fixed;
+}
+
+#landing-page-right {
+  background: url(../images/Blue.jpg) no-repeat center center fixed;
+}
+
+#landing-start-button {
+  color: black;
+  border: 3px solid black;
+  text-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
+}
+
+#landing-text-right {
+  font-size: 3vw;
+}
+
+#mood-page {
+  background: url(../images/BlackandRed.jpg) no-repeat center center fixed;
+}
+
+#music-display-div {
+  width: 75%;
+  position: absolute;
+  left: -4vw;
+}
+
+#music-page {
+  background: url(../images/BlackandGreen.jpg) no-repeat center center fixed;
+}
+
+#music-player {
+  margin: 26vw -3vw;
+  position: absolute;
+  box-shadow: 3px 3px 20px #333;
+  border-radius: 25px;
+  left: -4.5vw;
+}
+
+#music-question-text {
+  font-size: 2.4vw;
+}
+
+#no-button {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+  text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 2px #333;
+}
+
+#no-button:hover {
+  outline: 5px auto black;
+  text-shadow: 3px 3px 0 #333;
+}
+
+#results-page {
+  display: none;
+}
+
+#results-page-left {
+  background: url(../images/Red.jpg) no-repeat center center fixed;
+}
+
+#results-page-right {
+  background: url(../images/Purple.jpg) no-repeat center center fixed;
+}
+
+#yes-button {
+  color: black;
+  text-decoration: none;
+  border: 3px solid black;
+  text-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
+}
+
+#yes-button:hover {
+  outline: 5px auto white;
+  text-shadow: 1px 1px 0 #333;
+}
+
+/* media queries =============================== */
+@media screen and (max-width: 1100px) {
+  #age-modal-left {
+    margin: 15vw -1vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .back-button-white {
+    margin: 0.1vw;
+  }
+  /* .custom-row-card {
+    margin: 6vw 1.6vw 0vw;
+  } */
+  .custom-text-left {
+    margin: 29vw 4.5vw;
+  }
+  .custom-text-right {
+    margin: 4vw 5vw 0vw;
+  }
+  .forward-button {
+    margin: 0vw;
+  }
+  .header-questions {
+    padding: 4.5vw 0vw 3vw;
+  }
+  .header-text-left {
+    margin: 15vw 5vw 0vw;
+  }
+  .header-text-right {
+    margin: 14.8vw 5vw 0vw;
+  }
+  .question-div {
+    top: 9vw;
+  }
+  #age-modal-left {
+    margin: 15vw -1.5vw;
+  }
+  #landing-start-button {
+    margin: 2vw;
+  }
+  #music-player {
+    left: -7.5vw;
+    top: 6vw;
+  }
+  #results-header-text-left {
+    margin: 15vw 0vw;
+  }
+  #results-header-text-right {
+    margin: 14.8vw -1vw 0vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choice-text-music {
+    color: black;
+    font-size: 3vw;
+    top: 5vw;
+    left: 34vw;
+    text-align: right;
+    font-weight: bolder;
+  }
+
+  #back-button-results {
+    width: auto;
+    margin: 0% -5%;
+  }
+
+  #country-text {
+    left: 29.5vw;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .age-text {
+    font-size: 5vw;
+  }
+  .back-button-white {
+    top: 5vw;
+  }
+  /* .custom-row-card {
+    margin: 11vw 15.6vw -5vw;
+  } */
+/* .custom-text-left {
+    margin: 36vw -3vw;
+    right: 25%;
+    font-size: 6vw;
+  }
+  .custom-text-right {
+    font-size: 4.5vw;
+    margin: 8.5vw 1vw;
+  } */
+/* .forward-button {
+    top: 5vw;
+    width: 13.5vw;
+  }
+  .good {
+    font-size: 5vw;
+    right: 60vw;
+    margin: -6.8vw -5vw;
+  }
+  .header {
+    padding: 11vw 0vw 3.5vw;
+  }
+  .question-div {
+    top: 16.5vw;
+    height: 9vw;
+  }
+  .question-text {
+    margin: 2.9vw 3.3vw;
+  } */
+/* .spirits {
+    font-size: 5vw;
+    margin: -7vw 0vw 0vw;
+  }
+  #age-modal-left {
+    margin: 15vw -16vw;
+    padding: 4vw;
+  }
+  #age-modal-right {
+    margin: 15vw -2vw;
+    padding: 4vw;
+  } */
+/* #calm {
+    position: absolute;
+    top: 47vw;
+    left: 39vw;
+  } */
+/* #country {
+    position: absolute;
+    top: 23.4vw;
+    left: 39vw;
+  } */
+/* #edm {
+    position: absolute;
+    top: 47vw;
+    left: 39vw;
+  }
+  #gin {
+    position: absolute;
+    top: 47vw;
+    left: 39vw;
+  }
+  #kids-header-text-left {
+    font-size: 10vw;
+  }
+  #kids-header-text-right {
+    font-size: 10vw;
+    width: 143%;
+  }
+  #kids-text-left {
+    margin-right: 0vw;
+  }
+  #kids-text-right {
+    font-size: 6vw;
+    margin: 8vw 5vw;
+  }
+  #landing-header-text-left {
+    margin: 14.5vw 4vw 0vw;
+  }
+  #landing-header-text-right {
+    margin: 14.5vw 3vw;
+  }
+  #landing-text-left {
+    position: absolute;
+    top: -1.6vw;
+    right: 8.1vw;
+    font-size: 6.7vw;
+  }
+  #landing-text-right {
+    position: absolute;
+    top: 25.4vw;
+    left: 4vw;
+    font-size: 5vw;
+  }
+  #music-player {
+    left: -12vw;
+    top: 15vw;
+  }
+  #randb {
+    position: absolute;
+    top: 0vw;
+    left: 39vw;
+  }
+  #results-header {
+    padding: 11vw 0vw 0vw;
+  }
+  #results-header-text-left {
+    margin: 20vw 0vw;
+  }
+  #results-header-text-right {
+    margin: 20vw 0vw;
+  } */
+/* #sad {
+    position: absolute;
+    top: 23.4vw;
+    left: 39vw;
+  } */
+/* #tequila {
+    position: absolute;
+    top: 0vw;
+    left: 39vw;
+  }
+  #vodka {
+    position: absolute;
+    top: 23.4vw;
+    left: 39vw;
+  } */
+/* #zen {
+    position: absolute;
+    top: 0vw;
+    left: 39vw;
+  } */
+/* } */
